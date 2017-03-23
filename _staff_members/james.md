@@ -1,6 +1,6 @@
 ---
-name: James Lopez
-position: Designer
-image_path: "https://unsplash.it/600/503?image=1062&a=.png"
-twitter: CloudCannonApp
+name: Khoa Duong
+position: Chairman
+image_path: "http://editorial.designtaxi.com/news-avengers2208/2.jpg"
+facebook: khoadv
 ---
