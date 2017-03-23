@@ -1,83 +1,24 @@
 ---
-name: Cause Template
-subtitle: Not for profit template for Jekyll
-external_url: https://github.com/CloudCannon/cause-jekyll-template
-image_path: /images/clients/cause.jpg
+name: Giám sát phân tán
+subtitle: Dự án triển khai hệ thống giám sát phân tán
+external_url: https://vietmolo.com
+image_path: /images/clients/monitoring.jpg
 ---
 
-Not for profit themed template for Jekyll. Browse through a [live demo](#TODO).
-Increase the web presence of a not for profit or cause website with this configurable theme.
+Hệ thống giám sát phân tán giúp người sử dụng có thể giám sát đồng thời nhiều cụm máy chủ ở các vùng địa lý khác nhau trên một giao diện theo dõi duy nhất.
 
-CloudCannon was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+## Các đặc điểm
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+* Giao diện theo dõi tập trung
+* Biểu đồ theo dõi theo thời gian thực
+* Bảo mật đường truyền từ các site
+* Phân quyền người dùng theo quyền hạn
+* Tích hợp với các ứng dụng vẽ biểu đồ
+* Cung cấp API
 
-## Features
+## Các khách hàng đã sử dụng
 
-* Pre-built pages
-* Pre-styled components
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* SEO tags
-* Google Analytics
-* [Donorbox](https://donorbox.org/)
-* [MailChimp](https://mailchimp.com/)
+1. Công ty Viet MOLO
+2. Tập đoàn Học Chủ Động.
 
-## Setup
-
-1. Add your site details in `_config.yml`.
-2. Add your Google Analytics to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
-
-## Develop
-
-Cause was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Cause is already optimised for updating pages, company details and footer elements in CloudCannon.
-
-## SEO Tag
-
-This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin. You should at least set a title in front matter on each page. Have a look at the [project page](https://github.com/jekyll/jekyll-seo-tag) for more options.
-
-## Google Analytics
-
-[Google Analytics](https://www.google.com/analytics/) is a third party website analytics tool. To install:
-1. Add your Google Analytics key to `_config.yml`
-2. Run your site in production `JEKYLL_ENV=production`. This is the default in CloudCannon and GitHub Pages.
-
-## Donorbox
-
-[Donorbox](https://donorbox.org/) is a third party embeddable donation form for websites. To install:
-
-1. Set up a campaign on Donorbox
-2. Copy the embed code from the Dashboard screen
-3. Paste it into `donation_embed` in the `index.html` front matter
-
-## Mailchimp
-
-[Mailchimp](https://mailchimp.com/) is a third party embeddable newsletter for websites. To install:
-
-1. Set up a campaign on Mailchimp
-2. Find the embed code for the sign up form
-3. Copy the `<form>`'s action url
-4. Paste it into `newsletter_action` in the `index.html` front matter
-
-### Company details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+### Mô tả giải pháp
