@@ -61,10 +61,11 @@
 					{% endfor %}
 
 					<ul class="footer-links">
-						<li>
-							<h2>{{ site.data.company.title }}</h2>
-						</li>
+						<li><h2>{{ site.data.company.title }}</h2></li>
 						<li>{{ site.data.company.description }}</li>
+                        <li>{{ site.data.company.contact_email_address }}</li>
+                        <li>{{ site.data.company.contact_phone_number }}</li>
+                        <li>{{ site.data.company.address}}</li>
 						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
 					</ul>
 				</div>
