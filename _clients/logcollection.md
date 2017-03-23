@@ -1,14 +1,14 @@
 ---
-name: Frisco Template
-subtitle: App marketing template for Jekyll
-external_url: https://github.com/CloudCannon/frisco-jekyll-template
-image_path: /images/clients/frisco.jpg
+name: Log Collection
+subtitle: Giải pháp thu thập log tập trung
+external_url: https://log.meditech.vn
+image_path: /images/clients/logcollection.png
 ---
 
-App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
-Increase the web presence of a App with this configurable theme.
+Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
+Increase the web presence of a law firm or business with this configurable theme.
 
-Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+Justice was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
 
 Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
@@ -36,7 +36,7 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Develop
 
-Frisco was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Justice was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
@@ -52,29 +52,31 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
+Justice is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
 ### Posts
 
 * Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff Members** collection.
+* The **Staff Author** field links to members in the **Staff** collection.
 * Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 * Change the defaults when new posts are created in `_posts/_defaults.md`.
 
 ### Contact Form
 
-* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
+* Preconfigured to work with [CloudCannon](https://app.cloudcannon.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
+* Sends email to the address listed in company details.
 
 ### Staff
 
 * Reused around the site to save multiple editing locations.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 
 ### Footer
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Footer* section.
+
+### Company details
+
+* Reused around the site to save multiple editing locations.
+* Set in the *Data* / *Company* section.
