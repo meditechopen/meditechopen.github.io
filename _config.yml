@@ -1,5 +1,6 @@
 title: Medical & Technology Company
 url: "https://meditech.vn"
+enforce_ssl: meditech.vn
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
