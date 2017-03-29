@@ -19,6 +19,6 @@ Hệ thống giám sát phân tán giúp người sử dụng có thể giám s�
 ## Các khách hàng đã sử dụng
 
 1. Công ty Viet MOLO
-2. Tập đoàn Học Chủ Động.
+2. Công ty khởi tạo Việt.
 
 ### Mô tả giải pháp
