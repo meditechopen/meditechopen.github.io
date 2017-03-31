@@ -4,7 +4,7 @@ enforce_ssl: meditech.vn
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-disqus_shortname:congto
+disqus_shortname: congto
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: Website chính thức của MediTech
